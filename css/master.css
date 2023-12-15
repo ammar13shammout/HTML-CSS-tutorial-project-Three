@@ -1752,6 +1752,11 @@ a {
   border: none;
   outline: none;
 }
+@media (max-width: 991px) {
+  .discount .full-container .form-holder form{
+    width:98%;
+  }
+}
 
 .discount .full-container .form-holder form input {
   margin-bottom: 30px;
